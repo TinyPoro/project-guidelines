@@ -231,7 +231,6 @@
 
     _Tại sao:_ 
 
-    > It's normal to disable style check while working on a code block to focus more on the logic. Just remember to remove those `eslint-disable` comments and follow the rules. 
     > Sẽ rất bình thường khi bạn tắt các kiểm tra phong cách trong khi làm việc trên 1 đoạn code để tập trung hơn vào logic. Hãy nhớ loại các comment `eslint-disable` và tuân theo các luật.
 
   
@@ -252,7 +251,7 @@
 
     _Tại sao:_ 
 
-    > Code của bạn nênên càng dễ đọc càng tốt, bạn nên thoát ra khỏi những thứ gây xao nhãng. Nếu bạn sắp xếp lại các hàm, đừng chỉ comment những cái cũ, hãy xóa chúng đi. 
+    > Code của bạn nên càng dễ đọc càng tốt, bạn nên thoát ra khỏi những thứ gây xao nhãng. Nếu bạn sắp xếp lại các hàm, đừng chỉ comment những cái cũ, hãy xóa chúng đi. 
 
   
 
@@ -347,17 +346,15 @@
 
   
 
-* Produce readable production logging. Ideally use logging libraries to be used in production mode (such as [winston](https://github.com/winstonjs/winston) or 
-[node-bunyan](https://github.com/trentm/node-bunyan)). 
 * Tạo ra các log production dễ đọc. Lý tưởng nhất là sử dụng thửz viện ghi log trong chế độ production ( ví dụ như [winston](https://github.com/winstonjs/winston) hoặc 
 [node-bunyan](https://github.com/trentm/node-bunyan)).
 
 
   
 
-    _Why:_ 
+    _Tại sao:_ 
 
-    > It makes your troubleshooting less unpleasant with colorization, timestamps, log to a file in addition to the console or even logging to a file that rotates daily. [read more...](https://blog.risingstack.com/node-js-logging-tutorial/) 
+    > Nó khiến bạn việc xử lý sự cố của bạn trở nên dễ dàng hơn với màu sắc, dấu thời gian, và các log trong file được thêm vào trong console hoặc thậm chí là ghi log vào file hàng ngày. [đọc thêm ..](https://blog.risingstack.com/node-js-logging-tutorial/) 
 
   
 
