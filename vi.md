@@ -3,7 +3,7 @@
 * Thêm môi trường chế độ `kiểm thử` nếu cần thiết.
 
     _Tại sao:_
-    >Trong khi đôi lúc việc kiểm thử end to end trong chế độ `sản xuất` có vẻ là đủ, tuy nhiên cũng có vài ngoài lệ: 1 ví dụ như là khi bạn có thể không muốn bật các thống tin phân tích trong chế độ `sản phẩm` và bôi ra trang dashboard của ai đó những dữ liệu test. Một ví dụ khác là API của bạn có thể có những mức giới hạn trong `sản xuất` và phần test của bạn gọi 1 lượng các request.
+    >Trong khi đôi lúc việc testing end to end trong chế độ `sản xuất` có vẻ là đủ, tuy nhiên cũng có vài ngoài lệ: 1 ví dụ như là khi bạn có thể không muốn bật các thống tin phân tích trong chế độ `sản phẩm` và bôi ra trang dashboard của ai đó những dữ liệu test. Một ví dụ khác là API của bạn có thể có những mức giới hạn trong `sản xuất` và phần test của bạn gọi 1 lượng các request.
 
 * Đặt các file kiểm thử của bạn cạnh các module test sử dụng quy ước đặt tên `*.test.js` hoặc `.*spec,js`, như `moduleName.spec.js`.
 
